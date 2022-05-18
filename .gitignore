@@ -6,3 +6,4 @@ nbproject
 var
 vendor
 public
+!public/extra

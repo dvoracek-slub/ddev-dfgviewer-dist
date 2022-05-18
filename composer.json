@@ -1,7 +1,22 @@
 {
-	"repositories": [
-		{ "type": "composer", "url": "https://composer.typo3.org/" }
-	],
+	"repositories": {
+		"kitodo-presentation": {
+			"type": "vcs",
+			"url": "https://github.com/dvoracek-slub/kitodo-presentation"
+		},
+		"slub_digitalcollections": {
+			"type": "vcs",
+			"url": "https://github.com/dvoracek-slub/slub_digitalcollections"
+		},
+		"dfg-viewer": {
+			"type": "vcs",
+			"url": "https://github.com/dvoracek-slub/dfg-viewer"
+		},
+		"0": {
+			"type": "composer",
+			"url": "https://composer.typo3.org/"
+		}
+	},
 	"name": "typo3/cms-base-distribution",
 	"description": "TYPO3 CMS Base Distribution",
 	"license": "GPL-2.0-or-later",
@@ -35,7 +50,8 @@
 		"typo3/cms-t3editor": "^10.4",
 		"typo3/cms-tstemplate": "^10.4",
 		"typo3/cms-viewpage": "^10.4",
-		"slub/dfgviewer": "^5|dev-master|dev-dev-extbase-fluid"
+		"kitodo/presentation": "dev-dev-mediaplayer",
+		"slub/dfgviewer": "dev-dev-mediaplayer"
 	},
     "minimum-stability": "dev",
 	"prefer-stable": true,

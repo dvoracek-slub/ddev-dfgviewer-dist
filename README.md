@@ -7,12 +7,14 @@ A more comprehensive DDEV system based on database dumps is available at https:/
 ## Getting Started
 
 ```bash
+git clone https://github.com/dvoracek-slub/ddev-dfgviewer-dist.git
+cd ddev-dfgviewer-dist
+git switch mediaplayer
+
 ddev start
 ddev check-install
-ddev launch
+ddev launch '/viewer?tx_dlf[id]=https://dfgviewer-dist.ddev.site/extra/Schattensucher.xml'
 ```
-
-You may need to set the storage PID in backend.
 
 ## Other Commands
 

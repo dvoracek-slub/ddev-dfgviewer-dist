@@ -14,7 +14,9 @@ CHOICE=""
 
 # Functions
 reset_project () {
-    rm -rf public/
+    # Delete all files and folders from public/, except what's committed
+    git clean -ffx public/
+
     rm -rf vendor/
     rm -rf var/
 
