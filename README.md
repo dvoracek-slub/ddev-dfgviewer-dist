@@ -12,6 +12,8 @@ ddev check-install
 ddev launch
 ```
 
+You may need to set the storage PID in backend.
+
 ## URLs
 
 - Backend Login: https://dfgviewer-dist.ddev.site/typo3/
